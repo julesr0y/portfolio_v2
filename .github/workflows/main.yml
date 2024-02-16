@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - prod
+      - deploy
 name: Publish
 jobs:
   FTP-Deploy-Action:
